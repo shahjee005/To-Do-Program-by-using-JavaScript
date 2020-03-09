@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" media="screen" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <title>JavaScript To-Do program</title>
+       
+  </head>
+  <body>
+    <h1>JavaScript To-Do List </h1>
+    <h2>March 09, 2020</h2>
+    <section class="container">
+    <p>
+
+      <label for="new-task" >Add Item</label>
+      <input id="new-task" type="text">
+      <input name="dt" type="datetime-local"/>
+      <button>Add</button>
+    <form>
+  	
+	   
+	   
+    </form>
+    </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li>
+            <input type="checkbox">
+            <label>Submit to-do Assignemnt</label>
+            <input type="text">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+        </li>
+        <li class="editMode"><input type="checkbox">
+            <label>Do laundry</label>
+            <input type="text" value="Do laundry">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+        </li>
+        
+      </ul>
+      <h3>Completed Tasks</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked>
+            <label>Doctor's Appointment</label>
+            <input type="text">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+        </li>
+      </ul>
+    </section>
+
+    <script type="text/javascript" src="./js/scripts.js"></script>
+
+  </body>
+</html>
